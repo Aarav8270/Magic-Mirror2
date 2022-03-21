@@ -1,5 +1,6 @@
-fetch("/Magic-Mirror/menu.txt")
-  .then(response => {
+// fetch("/Magic-Mirror2/menu.txt")
+fetch("C:/Users/peddieguest/Magic-Mirror2/menu.txt")  
+.then(response => {
     if (!response.ok) {
       throw new Error("Bad Response")
     }
@@ -7,7 +8,7 @@ fetch("/Magic-Mirror/menu.txt")
   })
   .then(text => document.getElementById("portfolio-code2").innerText = text)
   .catch(errror => document.getElementById("portfolio-code2").innerText = "Unable to fetch portfolio, try again later")
-fetch("/Magic-Mirror/athletics4.txt")
+fetch("C:/Users/peddieguest/Magic-Mirror2/athletics4.txt")
   .then(response => {
     if (!response.ok) {
       throw new Error("Bad Response")
@@ -16,7 +17,7 @@ fetch("/Magic-Mirror/athletics4.txt")
   })
   .then(text => document.getElementById("portfolio-code3").innerText = text)
   .catch(errror => document.getElementById("portfolio-code3").innerText = "Unable to fetch portfolio, try again later")
-fetch("/Magic-Mirror/calendar2.txt")
+fetch("C:/Users/peddieguest/Magic-Mirror2/calendar2.txt")
   .then(response => {
     if (!response.ok) {
       throw new Error("Bad Response")
@@ -25,7 +26,7 @@ fetch("/Magic-Mirror/calendar2.txt")
   })
   .then(text => document.getElementById("portfolio-code4").innerText = text)
   .catch(errror => document.getElementById("portfolio-code4").innerText = "Unable to fetch portfolio, try again later")
-fetch("/Magic-Mirror/weather.txt")
+fetch("C:/Users/peddieguest/Magic-Mirror2/weather.txt")
   .then(response => {
     if (!response.ok) {
       throw new Error("Bad Response")
