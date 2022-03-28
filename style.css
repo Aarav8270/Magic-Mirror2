@@ -225,9 +225,16 @@ h4 {
   font-family: sans-serif;
   text-align: right;
   font-size: 8px;
+<<<<<<< HEAD
   padding-right:210px;
   vertical-align: top;
   position:relative;
   bottom:355px !important;
+=======
+  padding-right:255px;
+  vertical-align: top;
+  position:relative;
+  bottom:30px !important;
+>>>>>>> b198f9a0467363b8e612593d22ddac33e2732261
   /* padding-top:5px; */
 }
